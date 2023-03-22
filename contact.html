@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AGAVEMUS WINE CO.</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=+Serif:400,700,700i|Open+Sans:400,700&display=swap" rel="stylesheet"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+  <link rel="stylesheet" href="css/styleshop.css">
+  <style>
+    
+    header {
+      position: fixed;
+      top: 70px;
+      width: 100%;
+      transition: top 0.3s;
+      z-index: 999;
+    }
+ 
+    header.show {
+      top: 0;
+    }
+  </style>
+
+<!-- body -->
+<body class="main-layout">
+   <!-- loader  -->
+  
+   <!-- end loader -->
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                  <div class="full">
+                     <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="#" /></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Inicio</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">Precios</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="calendario.html">Eventos</a>
+                           </li>
+                         
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contactanos</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+ 
+
+   <div class="contact-container">
+	<h2>Deja Tu Mensaje</h2>
+	<form>
+	  <div class="form-group">
+		<label for="name">Nombre</label>
+		<input type="text" id="name" name="name" required>
+	  </div>
+	  <div class="form-group">
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" required>
+	  </div>
+	  <div class="form-group">
+		<label for="message">Mensaje</label>
+		<textarea id="message" name="message" rows="5" required></textarea>
+	  </div>
+	  <button type="submit">Enviar</button>
+	</form>
+  </div>
+  
+
+
+  
+
+      
+
+  
+ 
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>
